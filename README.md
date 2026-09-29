@@ -33,10 +33,17 @@ These skills teach an agent how to operate iOS reliably: the look-act-verify loo
 
 ### Codex, Cursor, OpenCode and other agents
 
-With the [skills CLI](https://github.com/vercel-labs/skills):
+With the [skills CLI](https://github.com/vercel-labs/skills), install every skill at once:
 
 ```sh
 npx skills add zeptap/skills
+```
+
+It asks which agents to install to. To skip the prompts, name the agent, or use `--all` for every agent:
+
+```sh
+npx skills add zeptap/skills -g -y --agent codex   # user-level, for Codex
+npx skills add zeptap/skills --all                 # every skill, every agent, no prompts
 ```
 
 Or copy the folders in `skills/` into your agent's skills directory (for example `~/.codex/skills/` or `~/.claude/skills/`).
