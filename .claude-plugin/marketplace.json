@@ -1,0 +1,24 @@
+{
+  "name": "zeptap",
+  "owner": {
+    "name": "Zeptap",
+    "url": "https://zeptap.com"
+  },
+  "metadata": {
+    "description": "Zeptap skills for AI agents driving real iPhones."
+  },
+  "plugins": [
+    {
+      "name": "zeptap",
+      "description": "Skills for driving real iPhones through Zeptap's local MCP server: the operating loop, navigation, scrolling, typing, pickers, alerts, Settings, and account warmup playbooks.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Zeptap",
+        "url": "https://zeptap.com"
+      },
+      "source": "./",
+      "category": "productivity",
+      "homepage": "https://zeptap.com/docs"
+    }
+  ]
+}
