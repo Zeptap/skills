@@ -24,7 +24,7 @@ Settings changes affect the whole phone. Before changing a setting the user didn
 - Privacy, location and tracking settings
 - Accounts, passwords, Apple ID and iCloud
 - Screen Time, Face ID and passcode
-- Bluetooth and Accessibility, AssistiveTouch included. Zeptap controls the phone through these; turning them off disconnects you
+- Wireless toggles (Airplane Mode included) and Accessibility, AssistiveTouch included. Zeptap controls the phone through these; turning them off disconnects you
 - Resetting or erasing anything
 
 ## Leave it as you found it

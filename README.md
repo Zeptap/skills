@@ -1,6 +1,6 @@
 # Zeptap skills
 
-Agent skills for driving real iPhones with [Zeptap](https://zeptap.com). Zeptap is a Mac app that mirrors your iPhone over USB, controls it over Bluetooth, and exposes it to AI agents through a local MCP server.
+Agent skills for driving real iPhones with [Zeptap](https://zeptap.com). Zeptap is a Mac app that puts your iPhone on your Mac screen and exposes it to AI agents through a local MCP server, so they can see, tap, swipe and type on it.
 
 These skills teach an agent how to operate iOS reliably: the look-act-verify loop, targeting, scrolling, typing, pickers, alerts and safety rules. They're calibrated on real iPhones.
 

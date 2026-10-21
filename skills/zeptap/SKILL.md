@@ -5,7 +5,7 @@ description: Core rules for driving a real iPhone through the Zeptap MCP server 
 
 # Driving an iPhone with Zeptap
 
-Zeptap is a Mac app that mirrors real iPhones over USB and controls them over Bluetooth. Its MCP server (`zeptap`, `http://127.0.0.1:47801/mcp`) exposes the tools. The phone is real: taps, messages and purchases have real effects.
+Zeptap is a Mac app that shows real iPhones on the Mac and lets agents control them. Its MCP server (`zeptap`, `http://127.0.0.1:47801/mcp`) exposes the tools. The phone is real: taps, messages and purchases have real effects.
 
 ## The loop
 
@@ -36,7 +36,7 @@ Call `list_phones` first when more than one iPhone may be connected. Pass `phone
 | A tap had no effect | Re-read the screen and recompute the target once. Don't tap the same spot again |
 | The same control fails twice | Change approach: another entry point, `find_text`, or scroll it into clear view |
 | Two or three failures in a row | Stop and report what you see |
-| `Not connected to the iPhone over Bluetooth` | Don't retry. Ask the user to reconnect in Zeptap |
+| `Not connected to the iPhone` | Don't retry. Ask the user to reconnect in Zeptap |
 | `unlock` fails | Don't retry. Report the message to the user |
 
 ## Locked phone
