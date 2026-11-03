@@ -1,0 +1,19 @@
+# Trigger evals for iphone-shortcuts-builder. Run with all Zeptap skills installed, in Claude Code and Codex.
+# Target: loads for >= 8 of 10 should_trigger, <= 1 of 5 should_not_trigger.
+should_trigger:
+  - "make a shortcut on my iPhone that texts my partner my ETA"
+  - "build me an iOS shortcut that starts a 25 minute timer and plays my focus playlist"
+  - "create a Siri shortcut that logs a glass of water to a note"
+  - "add a shortcut to my phone that turns on low power mode and dims the screen"
+  - "make an apple shortcut that saves the current song to a playlist"
+  - "can you build the shortcut in the shortcuts app on my iphone for me"
+  - "set up a 'heading home' shortcut on my phone"
+  - "create an iPhone shortcut to share my location with my sister"
+  - "build a shortcut that resizes the last photo and copies it"
+  - "make me a shortcuts app automation for when I get to the gym"
+should_not_trigger:
+  - "what are the best iOS shortcuts"
+  - "make a macOS shortcut to rename files"
+  - "set up keyboard shortcuts in VS Code"
+  - "write an AppleScript that opens Safari"
+  - "add a Siri intent to my iOS app"

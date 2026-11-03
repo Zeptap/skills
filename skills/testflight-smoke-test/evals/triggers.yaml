@@ -1,0 +1,19 @@
+# Trigger evals for testflight-smoke-test. Run with all Zeptap skills installed, in Claude Code and Codex.
+# Target: loads for >= 8 of 10 should_trigger, <= 1 of 5 should_not_trigger.
+should_trigger:
+  - "install the latest TestFlight build and smoke test it"
+  - "check today's TestFlight build works"
+  - "does build 42 launch on my phone"
+  - "update our app from testflight on my iphone and make sure login still works"
+  - "there's a new testflight build, install it and run through the basics"
+  - "smoke test the beta on device"
+  - "grab the newest TestFlight version and check the home screen loads"
+  - "install the testflight build and tell me if it crashes on launch"
+  - "quick sanity check of the new beta build on my iPhone"
+  - "testflight: update and test the checkout"
+should_not_trigger:
+  - "upload this build to TestFlight"
+  - "add testers to my TestFlight group"
+  - "write release notes for the TestFlight build"
+  - "run the full regression suite in the simulator"
+  - "submit the app for App Store review"

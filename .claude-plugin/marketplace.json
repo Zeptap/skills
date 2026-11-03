@@ -5,20 +5,119 @@
     "url": "https://zeptap.com"
   },
   "metadata": {
-    "description": "Zeptap skills for AI agents driving real iPhones."
+    "description": "Skills that let your agent use your real iPhone with Zeptap: catch up on WhatsApp, test apps on a real device, and tidy the phone."
   },
   "plugins": [
     {
       "name": "zeptap",
-      "description": "Skills for driving real iPhones through Zeptap's local MCP server: the operating loop, navigation, scrolling, typing, pickers, alerts, Settings, and account warmup playbooks.",
-      "version": "0.1.0",
+      "description": "The core skill: your agent uses your real iPhone like a person would. Open apps, read the screen, tap, scroll and type, then check the result. Every other Zeptap plugin builds on it.",
+      "version": "0.2.0",
       "author": {
         "name": "Zeptap",
         "url": "https://zeptap.com"
       },
-      "source": "./",
+      "homepage": "https://zeptap.com/docs",
+      "repository": "https://github.com/zeptap/skills",
+      "license": "MIT",
       "category": "productivity",
-      "homepage": "https://zeptap.com/docs"
+      "keywords": [
+        "iphone",
+        "ios",
+        "phone",
+        "automation",
+        "mcp"
+      ],
+      "source": "./",
+      "skills": [
+        "./skills/iphone-use"
+      ]
+    },
+    {
+      "name": "zeptap-social",
+      "description": "WhatsApp catch-up and replies, and brand account warm-ups, done in the apps on your real iPhone.",
+      "version": "0.2.0",
+      "author": {
+        "name": "Zeptap",
+        "url": "https://zeptap.com"
+      },
+      "homepage": "https://zeptap.com/docs",
+      "repository": "https://github.com/zeptap/skills",
+      "license": "MIT",
+      "category": "productivity",
+      "keywords": [
+        "whatsapp",
+        "social-media",
+        "iphone"
+      ],
+      "source": "./",
+      "dependencies": [
+        "zeptap"
+      ],
+      "skills": [
+        "./skills/account-warmup",
+        "./skills/whatsapp-messages"
+      ]
+    },
+    {
+      "name": "zeptap-dev",
+      "description": "Test iOS apps on a real, physical iPhone: run user journeys, reproduce bug reports, check large text sizes, smoke test TestFlight builds and capture App Store screenshots.",
+      "version": "0.2.0",
+      "author": {
+        "name": "Zeptap",
+        "url": "https://zeptap.com"
+      },
+      "homepage": "https://zeptap.com/docs",
+      "repository": "https://github.com/zeptap/skills",
+      "license": "MIT",
+      "category": "development",
+      "keywords": [
+        "ios",
+        "testing",
+        "qa",
+        "testflight",
+        "real-device"
+      ],
+      "source": "./",
+      "dependencies": [
+        "zeptap"
+      ],
+      "skills": [
+        "./skills/ios-real-device-testing",
+        "./skills/ios-bug-repro",
+        "./skills/ios-dynamic-type-check",
+        "./skills/testflight-smoke-test",
+        "./skills/app-store-screenshots-iphone"
+      ]
+    },
+    {
+      "name": "zeptap-life",
+      "description": "Everyday jobs on your own iPhone: tidy the camera roll, organise the Home Screen and notifications, prepare reorders and rides for you to confirm, and build Apple Shortcuts.",
+      "version": "0.2.0",
+      "author": {
+        "name": "Zeptap",
+        "url": "https://zeptap.com"
+      },
+      "homepage": "https://zeptap.com/docs",
+      "repository": "https://github.com/zeptap/skills",
+      "license": "MIT",
+      "category": "productivity",
+      "keywords": [
+        "iphone",
+        "photos",
+        "home-screen",
+        "shortcuts",
+        "errands"
+      ],
+      "source": "./",
+      "dependencies": [
+        "zeptap"
+      ],
+      "skills": [
+        "./skills/camera-roll-cleanup",
+        "./skills/iphone-home-screen-organizer",
+        "./skills/iphone-errands",
+        "./skills/iphone-shortcuts-builder"
+      ]
     }
   ]
 }

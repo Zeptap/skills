@@ -1,0 +1,19 @@
+# Trigger evals for iphone-home-screen-organizer. Run with all Zeptap skills installed, in Claude Code and Codex.
+# Target: loads for >= 8 of 10 should_trigger, <= 1 of 5 should_not_trigger.
+should_trigger:
+  - "organise my home screen"
+  - "set up a work focus on my iPhone"
+  - "stop promo notifications from Temu and Shein on my phone"
+  - "move social media apps off my first home screen page"
+  - "put my apps into folders by category"
+  - "my iphone home screen is a mess, fix it"
+  - "make a minimal home screen with just the apps I use daily"
+  - "turn off notifications for games on my iphone"
+  - "create a sleep focus that only lets my family through"
+  - "clean up my iPhone home screen pages"
+should_not_trigger:
+  - "design a home screen for my iOS app"
+  - "uninstall all the apps I haven't used in a month"
+  - "organise my Mac desktop"
+  - "set up do not disturb on my android"
+  - "make a home screen widget in SwiftUI"

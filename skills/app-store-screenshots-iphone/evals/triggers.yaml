@@ -1,0 +1,19 @@
+# Trigger evals for app-store-screenshots-iphone. Run with all Zeptap skills installed, in Claude Code and Codex.
+# Target: loads for >= 8 of 10 should_trigger, <= 1 of 5 should_not_trigger.
+should_trigger:
+  - "take App Store screenshots of my app on my iPhone"
+  - "capture real-device screenshots for the app store listing"
+  - "go to the 5 main screens of our app on my phone and screenshot each for the store"
+  - "I need fresh iPhone screenshots of the app with the demo account loaded"
+  - "screenshot the onboarding, home and settings screens on device for App Store Connect"
+  - "get store screenshots from my physical iphone instead of the simulator"
+  - "capture the app's paywall and home screen on my iphone for the listing"
+  - "make app store screenshots using the real app on my phone"
+  - "take screenshots of my app in dark mode on my iphone for the store"
+  - "real iphone screenshots of each tab of our app please"
+should_not_trigger:
+  - "design App Store screenshot frames with captions"
+  - "resize these screenshots to 6.7 inch"
+  - "write my App Store description"
+  - "take a screenshot of my Mac screen"
+  - "generate app store screenshots from the simulator with fastlane"

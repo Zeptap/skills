@@ -1,0 +1,19 @@
+# Trigger evals for ios-bug-repro. Run with all Zeptap skills installed, in Claude Code and Codex.
+# Target: loads for >= 8 of 10 should_trigger, <= 1 of 5 should_not_trigger.
+should_trigger:
+  - "reproduce this bug on a real iPhone"
+  - "can you repro issue #123 on device"
+  - "check if this crash happens on my phone"
+  - "a user says the app freezes after tapping Share on iOS 18, try it on my iPhone"
+  - "confirm the login loop bug from the support ticket on a physical device"
+  - "follow these steps on my iPhone and tell me if you see the blank screen"
+  - "try to reproduce the checkout crash 5 times on device and tell me how often it happens"
+  - "is this bug real? test it on my iphone"
+  - "repro the dark mode text bug in our app on my phone"
+  - "verify the fix for bug 88 on a real device"
+should_not_trigger:
+  - "debug this stack trace"
+  - "write a bug report template"
+  - "reproduce this bug in the iOS simulator"
+  - "triage our github issues by severity"
+  - "run the full onboarding test on my real iphone"

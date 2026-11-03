@@ -1,0 +1,19 @@
+# Trigger evals for iphone-errands. Run with all Zeptap skills installed, in Claude Code and Codex.
+# Target: loads for >= 8 of 10 should_trigger, <= 1 of 5 should_not_trigger.
+should_trigger:
+  - "reorder my usual coffee pods on Amazon"
+  - "get an Uber to JFK terminal 4 at 6am"
+  - "order my usual from Uber Eats"
+  - "set up a ride to the airport on my phone for tomorrow morning"
+  - "rebuild last Friday's Uber Eats order and show me the basket"
+  - "buy the same printer ink I got last time on amazon, but stop before paying"
+  - "book an uber to the office, I'll confirm it"
+  - "put my regular groceries in the basket in the app on my iPhone"
+  - "schedule an uber from home to SFO terminal 2 at 7:30"
+  - "reorder the dog food from my amazon order history"
+should_not_trigger:
+  - "compare prices for coffee pods online"
+  - "build an Uber Eats clone"
+  - "how much is an Uber to JFK"
+  - "track my Amazon package"
+  - "find a good sushi place nearby"
