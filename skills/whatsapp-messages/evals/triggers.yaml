@@ -1,0 +1,19 @@
+# Trigger evals for whatsapp-messages. Run with all Zeptap skills installed, in Claude Code and Codex.
+# Target: loads for >= 8 of 10 should_trigger, <= 1 of 5 should_not_trigger.
+should_trigger:
+  - "catch me up on WhatsApp"
+  - "what did I miss in the family group chat"
+  - "reply to Sam on whatsapp with times I'm free Thursday"
+  - "who's waiting on me on WhatsApp?"
+  - "summarise the last day of the school parents whatsapp group"
+  - "did anyone @mention me in my whatsapp groups this week"
+  - "answer my mum's whatsapp, tell her I'll call at 7"
+  - "go through my unread whatsapp chats and list anything I promised to do"
+  - "whatsapp has no API, can you read my messages on my phone and draft replies"
+  - "check whatsapp and tell me if the plumber replied"
+should_not_trigger:
+  - "set up WhatsApp Business Cloud API auto replies"
+  - "send a whatsapp broadcast to all my customers"
+  - "reply to my instagram DMs"
+  - "export a whatsapp chat to PDF"
+  - "build a whatsapp chatbot with twilio"

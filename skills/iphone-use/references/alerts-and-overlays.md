@@ -1,8 +1,3 @@
----
-name: ios-alerts-and-overlays
-description: Handle iOS permission prompts, system alerts, upsells, onboarding sheets and other overlays on an iPhone driven by Zeptap. Use when an alert, popup, sheet, banner or prompt appears over the screen you were working on.
----
-
 # Alerts and overlays on iOS
 
 Read the whole overlay before touching it. The buttons decide something, and the default one is not always the safe one.
@@ -20,7 +15,8 @@ Read the whole overlay before touching it. The buttons decide something, and the
 | Countdown that confirms on its own (rides, orders) | Treat reaching it as submitting. Only get there with the user's go-ahead |
 | Notification banner at the top | Ignore it, or wait a few seconds for it to leave. Don't tap it by accident |
 | The AssistiveTouch menu opened | Tap outside it |
-| Control Center or Notification Center opened | `home` |
+| Control Center, the App Switcher or Notification Center opened | `home` |
+| An app's first-launch welcome or data-use consent ("Continue") | Show the user; consent is theirs |
 
 ## Closing
 

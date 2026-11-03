@@ -1,0 +1,19 @@
+# Trigger evals for ios-dynamic-type-check. Run with all Zeptap skills installed, in Claude Code and Codex.
+# Target: loads for >= 8 of 10 should_trigger, <= 1 of 5 should_not_trigger.
+should_trigger:
+  - "check my app with large text"
+  - "do a dynamic type audit of our iOS app"
+  - "does my app break with bigger fonts"
+  - "set the text size to the largest accessibility size and look at the settings screen of my app"
+  - "test the app with bold text and larger text on my iphone"
+  - "my grandma says the buttons in our app are cut off with big text, check it on my phone"
+  - "check for truncated labels in the app at the biggest font size"
+  - "walk the main screens of the app with huge fonts and screenshot each"
+  - "dynamic type check on device before we ship"
+  - "see if our iOS app's layout survives accessibility text sizes"
+should_not_trigger:
+  - "add Dynamic Type support to my SwiftUI views"
+  - "make my iPhone's font bigger"
+  - "run an accessibility audit with VoiceOver"
+  - "check my website on mobile with large text"
+  - "write a WCAG compliance report"

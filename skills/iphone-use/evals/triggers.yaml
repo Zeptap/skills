@@ -1,0 +1,19 @@
+# Trigger evals for iphone-use. Run with all Zeptap skills installed, in Claude Code and Codex.
+# Target: loads for >= 8 of 10 should_trigger, <= 1 of 5 should_not_trigger.
+should_trigger:
+  - "use my iPhone to set an alarm for 6:30 tomorrow"
+  - "open Notes on my phone and add oat milk to the shopping list"
+  - "can you control my iPhone for me?"
+  - "turn on Low Power Mode on my iPhone"
+  - "check on my phone which apps have updates waiting"
+  - "add a dentist appointment to the calendar on my iPhone, Friday 3pm"
+  - "what's my screen time today? look it up on my phone"
+  - "do this on my phone: find the Wi-Fi network I'm on and tell me its name"
+  - "go into the Duolingo app on my iphone and tell me my streak"
+  - "automate this on my iPhone: open Spotify and start my Discover Weekly"
+should_not_trigger:
+  - "boot the iOS simulator and run my app on it"
+  - "write a SwiftUI view for a settings screen"
+  - "automate my Android phone with adb"
+  - "make a macOS Shortcut that renames my screenshots"
+  - "I lost my iPhone, how do I find it on iCloud?"

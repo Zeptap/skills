@@ -1,0 +1,19 @@
+# Trigger evals for camera-roll-cleanup. Run with all Zeptap skills installed, in Claude Code and Codex.
+# Target: loads for >= 8 of 10 should_trigger, <= 1 of 5 should_not_trigger.
+should_trigger:
+  - "clean up my camera roll"
+  - "my iPhone storage is full of photos, help"
+  - "organise my screenshots into albums"
+  - "make an album of my Lisbon trip"
+  - "find duplicate photos on my iphone"
+  - "put all my receipt screenshots in one album"
+  - "sort the screenshots from this month on my phone"
+  - "find blurry photos in my camera roll so I can delete them"
+  - "make an album called Tokyo with the photos from last March"
+  - "tidy up the photos app on my phone"
+should_not_trigger:
+  - "back up my iPhone photos to Google Drive"
+  - "edit this photo to remove the background"
+  - "free up iCloud storage on my Mac"
+  - "write a python script to dedupe images in a folder"
+  - "delete all my photos"

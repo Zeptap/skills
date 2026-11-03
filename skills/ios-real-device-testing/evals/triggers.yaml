@@ -1,0 +1,19 @@
+# Trigger evals for ios-real-device-testing. Run with all Zeptap skills installed, in Claude Code and Codex.
+# Target: loads for >= 8 of 10 should_trigger, <= 1 of 5 should_not_trigger.
+should_trigger:
+  - "test the signup flow on my real iPhone"
+  - "smoke test the app on device"
+  - "run through onboarding on my phone and tell me what breaks"
+  - "QA the checkout flow in our iOS app on a physical iPhone"
+  - "does push notification permission work in the app on a real device? test it"
+  - "walk through the camera upload feature on my iPhone and report each step"
+  - "test our app on my iphone like a new user would"
+  - "the simulator can't do this, try the login with Apple flow on my actual phone"
+  - "check the app on a real iPhone over cellular, does the feed load"
+  - "do an end to end test of the booking flow in the app installed on my phone"
+should_not_trigger:
+  - "write XCUITest tests for the login screen"
+  - "run my app in the iOS simulator"
+  - "set up a CI pipeline for iOS tests"
+  - "test my Android app on a real device"
+  - "reproduce issue #212 on device"
